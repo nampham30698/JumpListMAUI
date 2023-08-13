@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<!-- IMPORTANT -->
+<!-- BEFORE DELETING ITEM, PLEASE CHECK WHETHER IT IS USED SOMEWHERE IN PROJECT -->
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Color x:Key="Primary">#512BD4</Color>
+    <Color x:Key="Secondary">#DFD8F7</Color>
+    <Color x:Key="Tertiary">#2B0B98</Color>
+    <Color x:Key="White">White</Color>
+    <Color x:Key="Black">Black</Color>
+    <Color x:Key="Gray50">#f6faff</Color>
+    <Color x:Key="Gray100">#E1E1E1</Color>
+    <Color x:Key="Gray200">#C8C8C8</Color>
+    <Color x:Key="Gray300">#ACACAC</Color>
+    <Color x:Key="Gray400">#919191</Color>
+    <Color x:Key="Gray500">#6E6E6E</Color>
+    <Color x:Key="Gray600">#404040</Color>
+    <Color x:Key="Gray900">#212121</Color>
+    <Color x:Key="Gray950">#141414</Color>
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
+    <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>
+    <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}"/>
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}"/>
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
+    <SolidColorBrush x:Key="Gray100Brush" Color="{StaticResource Gray100}"/>
+    <SolidColorBrush x:Key="Gray200Brush" Color="{StaticResource Gray200}"/>
+    <SolidColorBrush x:Key="Gray300Brush" Color="{StaticResource Gray300}"/>
+    <SolidColorBrush x:Key="Gray400Brush" Color="{StaticResource Gray400}"/>
+    <SolidColorBrush x:Key="Gray500Brush" Color="{StaticResource Gray500}"/>
+    <SolidColorBrush x:Key="Gray600Brush" Color="{StaticResource Gray600}"/>
+    <SolidColorBrush x:Key="Gray900Brush" Color="{StaticResource Gray900}"/>
+    <SolidColorBrush x:Key="Gray950Brush" Color="{StaticResource Gray950}"/>
+
+    <Color x:Key="Yellow100Accent">#F7B548</Color>
+    <Color x:Key="Yellow200Accent">#FFD590</Color>
+    <Color x:Key="Yellow300Accent">#FFE5B9</Color>
+    <Color x:Key="Cyan100Accent">#28C2D1</Color>
+    <Color x:Key="Cyan200Accent">#7BDDEF</Color>
+    <Color x:Key="Cyan300Accent">#C3F2F4</Color>
+    <Color x:Key="Blue100Accent">#3E8EED</Color>
+    <Color x:Key="Blue200Accent">#72ACF1</Color>
+    <Color x:Key="Blue300Accent">#A7CBF6</Color>
+
+    <Color x:Key="c214">#F9F9F9</Color>
+
+    <Color x:Key="c246">#398EEC</Color>
+    <Color x:Key="c247">#C3C1C1</Color>
+    <Color x:Key="c248">#80000000</Color>
+    <Color x:Key="c249">#4D000000</Color>
+    <Color x:Key="c250">#66000000</Color>
+    <Color x:Key="c251">#F7F8F8F8</Color>
+    <Color x:Key="c252">#FCFFFFFF</Color>
+    <Color x:Key="c253">#F35369</Color>
+    <Color x:Key="c254">#D3D3D3</Color>
+    <Color x:Key="c255">#80F4F4F4</Color>
+    <Color x:Key="c256">#CCF4F4F4</Color>
+    <Color x:Key="c257">#28b8bd</Color>
+    <Color x:Key="c258">#E0E1DF</Color>
+    <Color x:Key="c259">#1BA2D2</Color>
+    <Color x:Key="c260">#677897</Color>
+    <Color x:Key="c261">#132638</Color>
+    <Color x:Key="c262">#C1CAD9</Color>
+    <Color x:Key="c263">#1489E2</Color>
+    <Color x:Key="c265">#DE3D42</Color>
+    <Color x:Key="c266">#09BFEF</Color>
+    <Color x:Key="c267">#BBBBBB</Color>
+    <Color x:Key="c268">#0091FF</Color>
+    <Color x:Key="c269">#F6F9FD</Color>
+    <Color x:Key="c270">#269BDFFF</Color>
+    <Color x:Key="c271">#B1BED3</Color>
+    <Color x:Key="c272">#DCE8F4</Color>
+    <Color x:Key="c273">#009EE3</Color>
+    <Color x:Key="c274">#6986DEFC</Color>
+    <Color x:Key="c275">#66FFFFFF</Color>
+    <Color x:Key="c276">#99D8D8D8</Color>
+    <Color x:Key="c278">#24354A</Color>
+    <Color x:Key="c279">#0F9EE7</Color>
+    <Color x:Key="c280">#C7EEF9</Color>
+    <Color x:Key="c281">#4091B7DC</Color>
+    <Color x:Key="c282">#E6F0FC</Color>
+    <Color x:Key="c283">#03FFFFFF</Color>
+    <Color x:Key="c284">#E3132638</Color>
+    <Color x:Key="c285">#E7F0FC</Color>
+    <Color x:Key="c286">#C3CEDD</Color>
+    <Color x:Key="c287">#38132638</Color>
+    <Color x:Key="c288">#E4132638</Color>
+    <Color x:Key="c289">#00FFFFFF</Color>
+    <Color x:Key="c300">#11C4E9</Color>
+    <Color x:Key="c301">#99D8D8D8</Color>
+    <Color x:Key="c302">#12132638</Color>
+    <Color x:Key="c303">#ADE5F1</Color>
+    <Color x:Key="c304">#1C132638</Color>
+    <Color x:Key="c305">#1A132638</Color>
+    <Color x:Key="c306">#3BB9E5</Color>
+    <Color x:Key="c307">#12ECF0F5</Color>
+    <Color x:Key="c308">#33677897</Color>
+    <Color x:Key="c309">#EDF2F6</Color>
+    <Color x:Key="c310">#C8DFF1</Color>
+    <Color x:Key="c311">#ECF7FF</Color>
+    <Color x:Key="c312">#455572</Color>
+    <Color x:Key="c313">#8EB6D3</Color>
+    <Color x:Key="c314">#102137</Color>
+    <Color x:Key="BgSettingColor">#1D2E3F</Color>
+</ResourceDictionary>
