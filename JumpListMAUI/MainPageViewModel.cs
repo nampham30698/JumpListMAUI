@@ -49,7 +49,7 @@ namespace JumpListMAUI
         {
             // get your data here.
 
-            await Task.Delay(1000);
+            await Task.Delay(10);
 
             var data = new List<MyModel>()
             {

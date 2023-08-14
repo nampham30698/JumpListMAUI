@@ -11,17 +11,16 @@ public partial class MainPage : ContentPage
     {
         InitializeComponent();
         BindingContext = _vm = vm;
-
-        CollectionSeries.Loaded += CollectionSeries_Loaded;
     }
 
     protected override async void OnAppearing()
     {
         await _vm.InitialSetup();
+        CreateAlphabetList();
         base.OnAppearing();
     }
 
-    private void CollectionSeries_Loaded(object sender, EventArgs e)
+    private void CreateAlphabetList()
     {
         var collectionSeries = CollectionSeries.ItemsSource as ObservableCollection<GroupMyModel>;
 
