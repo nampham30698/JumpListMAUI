@@ -74,6 +74,7 @@ namespace JumpListMAUI
                 new MyModel(){ Code = "123", Count = 123, Name = "Road"},
                 new MyModel(){ Code = "123", Count = 123, Name = "Shipping"},
                 new MyModel(){ Code = "123", Count = 123, Name = "Teamperature"},
+                new MyModel(){ Code = "123", Count = 123, Name = "Hola"},
             };
 
             return data;
